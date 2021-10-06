@@ -103,7 +103,7 @@ body {
 .sec2-gallery {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 50px;
 }
 
@@ -114,9 +114,11 @@ body {
 
 .el-img {
   width: 250px;
-  height: auto;
+  height: 168px;
+
   border: #3882f6 3px solid;
   border-radius: 10px;
+  margin-bottom: 5px;
 }
 
 /* SECTION 3 */
